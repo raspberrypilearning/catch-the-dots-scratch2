@@ -1,0 +1,29 @@
+---
+hero_image: images/banner.png
+theme: turquoise
+duration: 2
+listed: false
+ingredient: false
+copyedit: false
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: Uhvati tačke
+description: Nauči kako da napraviš igru hvatanja tačaka.
+original_url: https://codeclubprojects.org/en-GB/scratch/catch-the-dots
+interests: games
+technologies: scratch
+site_areas: projects
+hardware: ''
+software: scratch
+version: 3
+last_tested: 2017-01-01
+steps:
+  - title: Uvod
+  - title: Izrada kontrolera
+  - title: 'Izazov: Okretanje ulijevo'
+  - title: Sakupljanje tačaka
+  - title: 'Izazov: Više tačaka'
+  - title: Povećavanje težine igre
+  - title: 'Izazov: Tačke koje se brže kreću'
+  - title: Najbolji rezultat
+  - title: 'Izazov: Poboljšaj svoju igru!'
+  - title: 'Izazov: Meni igre'
