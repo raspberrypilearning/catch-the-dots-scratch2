@@ -38,11 +38,10 @@ title: What you will need
 + A computer capable of running Scratch 2.0
 
 ### Software
-+ Scratch 2.0 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"}
++ Scratch 2.0 [offline](http://rpf.io/scratchoff){:target="_blank"}
 
 ### Downloads
-+ [Offline Scratch 2 project](resources/catch-the-dots-resources.sb2){:target="_blank"}
-+ [Controller sprite](resources/catch-the-dots-controller.svg){:target="_blank"}
++ [Offline Scratch 2 resources](http://rpf.io/p/en/catch-the-dots-scratch2-go){:target="_blank"}
 --- /collapse ---
 
 --- collapse ---
@@ -53,7 +52,6 @@ title: Additional notes for educators
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2/print).
 --- /no-print ---
 
-You can find [the resources for this project here](http://rpf.io/p/catch-the-dots-go){:target="_blank"}.
+You can find [the completed project here](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
 
-+ [Completed online Scratch 2 project](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"}
 --- /collapse ---

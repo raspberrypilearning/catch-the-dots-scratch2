@@ -3,11 +3,7 @@
 Start by creating a controller that the player will use to collect dots.
 
 --- task ---
-Open the 'Catch the dots' Scratch starter project.
-
-**Online:** open the starter project at [rpf.io/dots-on](http://rpf.io/dots-on). If you have a Scratch account, you can click on **Remix** in the top right-hand corner to save a copy of the project.
-
-**Offline:** download the starter project from [rpf.io/dots-off](http://rpf.io/dots-off), and then open it in the Scratch offline editor.
+Open the 'Catch the dots' Scratch starter project from [rpf.io/p/en/catch-the-dots-scratch2-go](http://rpf.io/p/en/catch-the-dots-scratch2-go), and then open it in the Scratch offline editor.
 
 If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
 
@@ -19,7 +15,7 @@ You should see a controller sprite:
 
 
 --- task ---
-Add some code tothe controller sprite to make the sprite turn right if the player presses the right arrow key:
+Add some code to the controller sprite to make the sprite turn right if the player presses the right arrow key:
 
 ![Controller sprite](images/controller-sprite.png)
 
