@@ -52,6 +52,6 @@ title: Additional notes for educators
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2/print).
 --- /no-print ---
 
-You can find [the completed project here](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
+You can find [the completed project here](http://rpf.io/p/en/catch-the-dots-scratch2-get){:target="_blank"}.
 
 --- /collapse ---
