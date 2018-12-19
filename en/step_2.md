@@ -19,7 +19,7 @@ Add some code to the controller sprite to make the sprite turn right if the play
 
 ![Controller sprite](images/controller-sprite.png)
 
-![blocks_1545216390_830807](images/blocks_1545216390_830807.png)
+![blocks_1545237715_1172235](images/blocks_1545237715_1172235.png)
 --- /task ---
 
 --- task ---
@@ -39,11 +39,11 @@ Find the code that checks whether the right arrow key is pressed and makes the s
 --- /hint ---
 --- hint ---
 Here are the blocks you need:
-![blocks_1545216392_787187](images/blocks_1545216392_787187.png)
+![blocks_1545237717_645263](images/blocks_1545237717_645263.png)
 --- /hint ---
 --- hint ---
 Here is what your code should look like:
-![blocks_1545216393_8546205](images/blocks_1545216393_8546205.png)
+![blocks_1545237718_9649663](images/blocks_1545237718_9649663.png)
 --- /hint ---
 --- /hints ---
 --- /task ---
