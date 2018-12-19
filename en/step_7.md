@@ -39,7 +39,7 @@ when flag clicked
 set [lives v] to (3)
 set [score v] to (0)
 wait until <(lives) < (1)>
-+ check high score
++ check high score :: custom
 stop [all v]
 ```
 

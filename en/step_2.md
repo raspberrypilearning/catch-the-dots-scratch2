@@ -64,9 +64,9 @@ Here is what your code should look like:
 		if <key [right arrow v] pressed?> then
 			turn right (3) degrees
 		end
-        + if <key [left arrow v] pressed?> then
-			+ turn left(3) degrees
-		+ end
++       if <key [left arrow v] pressed?> then
+			turn left(3) degrees
+		end
 	end
 ```
 --- /hint ---

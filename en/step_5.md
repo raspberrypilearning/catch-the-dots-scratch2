@@ -33,7 +33,7 @@ Remove the code block that makes the game wait a random number of seconds betwee
 ![screenshot](images/all-dots.png)
 
 ```blocks
-	- wait (pick random (5) to (10)) secs
+-	wait (pick random (5) to (10)) secs
 	wait (delay) secs
 ```
 
