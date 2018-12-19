@@ -1,0 +1,26 @@
+---
+hero_image: images/banner.png
+theme:  turquoise
+duration: 2
+listed: false
+ingredient: false
+copyedit: false
+curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+title: डॉट्स पकड़ें
+description: डॉट-कैचिंग गेम बनाना सीखें
+original_url: https://codeclubprojects.org/en-GB/scratch/catch-the-dots
+interests: ''
+technologies: scratch
+site_areas: codeclub, scratch
+steps:
+- title: भूमिका
+- title: नियंत्रक बनाना
+- title: 'चुनौती: बाईं तरफ घुमाना'
+- title:  डॉट्स एकत्र करना
+- title: 'चुनौती: और बिंदु'
+- title: कठिनाई बढ़ाना
+- title: 'चुनौती: तेज़ गति करने वाले बिंदु'
+- title: उच्च स्कोर
+- title: 'चुनौती: अपने गेम में सुधार करें!'
+- title: 'चुनौती: गेम मेनू'
+
