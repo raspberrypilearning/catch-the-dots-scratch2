@@ -21,14 +21,30 @@ This is the code you need to find and alter for both new sprites:
 
 ![screenshot](images/dots-more-dots.png)
 
-![blocks_1545237726_288257](images/blocks_1545237726_288257.png)
+```blocks
+	if <touching color [#FF0000]?> then
+		change [score v] by (1)
+		play sound [pop v]
+        ...
+	end
+```
 --- /hint ---
 --- hint ---
 This is how you need to change the code for the yellow sprite:
-![blocks_1545237727_4041824](images/blocks_1545237727_4041824.png)
+```blocks
+	if <touching color [#FFFF00]? :: +> then
+        change [score v] by (1)
+        play sound [pop v]
+	end
+```
 
 This is how you need to change the code for the blue sprite:
-![blocks_1545237728_4988055](images/blocks_1545237728_4988055.png)
+```blocks
+	if <touching color [#0000FF]? :: +> then
+        change [score v] by (1)
+        play sound [pop v]
+	end
+```
 --- /hint ---
 --- /hints ---
 --- /task ---
@@ -40,7 +56,11 @@ Add code to the 'yellow' dot sprite so that it waits 4 seconds after the flag is
 
 ![screenshot](images/dots-more-dots.png)
 
-![blocks_1545237729_5589716](images/blocks_1545237729_5589716.png)
+```blocks
+	when flag clicked
+	hide
++	wait (4) secs
+```
 
 Then add code to the 'blue' dot sprite so that it waits 6 seconds after the flag is clicked before appearing.
 
