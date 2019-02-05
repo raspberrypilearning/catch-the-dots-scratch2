@@ -14,7 +14,15 @@ Add this script to your 'red' sprite to create a new clone of the sprite every f
 
 ![Red dot sprite](images/red-sprite.png)
 
-![blocks_1545237720_0949447](images/blocks_1545237720_0949447.png)
+```blocks
+	when flag clicked
+	hide
+	wait (2) secs
+	forever
+		create clone of [myself v]
+		wait (pick random (5) to (10)) secs
+	end
+```
 --- /task ---
 
 If you click the green flag now, it looks like nothing is happening. This is because all of the cloned sprites are hidden, and they appear in the same place.
@@ -44,7 +52,15 @@ Add this code to the 'dot' sprite to make each new sprite clone appear in a rand
 
 ![Red dot sprite](images/red-sprite.png)
 
-![blocks_1545237721_170071](images/blocks_1545237721_170071.png)
+```blocks
+	when I start as a clone
+	go to x: (item (random v) of [start positions v]) y: (item (random v) of [start positions v])
+	point towards [controller v]
+	show
+	repeat until <touching [controller v]?>
+		move (1) steps
+	end
+```
 
 --- /task ---
 This new code chooses either `-180` or `180` for the x and y positions, meaning that each 'dot' sprite clone starts in a corner of the Stage.
@@ -65,14 +81,21 @@ Create two new variables called `lives`{:class="blockdata"} and `score`{:class="
 Add code to your Stage to set the `lives`{:class="blockdata"} variable to `3` and the `score`{:class="blockdata"} to `0` at the start of the game.
 ![Stage sprite](images/stage-sprite.png)
 
-![blocks_1545237722_2869542](images/blocks_1545237722_2869542.png)
+```blocks
+when flag clicked
+set [lives v] to (3)
+set [score v] to (0)
+```
 --- /task ---
 
 --- task ---
 Add this code to the end of the Stage's script to make the game end when the player loses the last of the lives:
 
 ![Stage sprite](images/stage-sprite.png)
-![blocks_1545237723_3830242](images/blocks_1545237723_3830242.png)
+```blocks
+	wait until <(lives) < [1]>
+	stop [all v]
+```
 --- /task ---
 
 The player should win points for catching dots, and should lose lives for failing to catch dots. A dot can only be caught by matching the colour of the controller to the colour of the dot.
@@ -85,7 +108,17 @@ First, make the dot clone `move 5 steps`{:class="blockmotion"} so that it overla
 Then add code to either add `1` to `score`{:class="blockdata"} if the colour of the dot clone matches the colour of the controller when they touch, or to take `1` away from `lives`{:class="blockdata"} if their colours don't match.
 
 ![Red dot sprite](images/red-sprite.png)
-![blocks_1545237725_0505698](images/blocks_1545237725_0505698.png)
+```blocks
+	move (5) steps
+	if <touching color [#FF0000]?> then
+		change [score v] by (1)
+		play sound [pop v]
+	else
+		change [lives v] by (-1)
+		play sound [laser1 v]
+	end
+	delete this clone
+```
 --- /task ---
 
 --- task ---
