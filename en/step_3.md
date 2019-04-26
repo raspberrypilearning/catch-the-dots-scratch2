@@ -123,6 +123,9 @@ Then add code to either add `1` to `score`{:class="blockdata"} if the colour of 
 
 --- task ---
 
-Test your game to make sure that you lose a life if you don't match a dot with the correct colour, and that you score a point if you match a dot correctly.
+Test your game to make sure that:
+
+1. You lose a life if you don’t match a dot with the correct colour
+2. You score a point if you match a dot correctly
 
 --- /task ---
